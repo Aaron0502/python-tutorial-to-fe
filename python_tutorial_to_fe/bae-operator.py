@@ -1,3 +1,9 @@
+# 三元运算符
+x = 5
+y = 10
+max_num = x if x > y else y
+print(max_num)  # 输出：10
+
 # 海象运算符
 text = input("请输入一个字符串：")
 if (n := len(text)) > 3:
